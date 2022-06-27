@@ -2609,9 +2609,6 @@ blockquote {
 .pt-10 {
   padding-top: 5rem !important;
 }
-.pt-20 {
-  padding-top: 10rem !important;
-}
 
 .pb-10 {
   padding-bottom: 5rem !important;
@@ -6224,24 +6221,14 @@ input[type=radio]:checked ~ label::after {
   transition: border 0.35s, color 0.35s, background-color 0.35s;
 }
 
-.nav-link-with-img 
-{
-  /*position: relative;
+.nav-link-with-img {
+  position: relative;
   margin-bottom: -4px;
   height: 100%;
   padding: 1.5rem 0 2rem;
   border: 1px solid #22222236;
   border-radius: 100px;
-  background: #e1e1e1;*/
-
-    position: relative;
-    margin-bottom: 0px;
-    height: 100%;
-    padding: 10px;
-    border: 1px solid #22222236;
-    border-radius: 100px;
-    background: #e1e1e1;
-    margin-right: 10px;
+  background: #e1e1e1;
 }
 .nav-link-with-img figure {
   height: 7.4rem;
@@ -8014,11 +8001,10 @@ button.mfp-arrow {
   border-color: #64ba7b;
   background-color: #64ba7b;
 }
-.btn-primary.btn-solid 
-{
-  color: #fff;
+.btn-primary.btn-solid {
+  color: #4dae67;
   border-color: #fff;
-  background-color: transparent;
+  background-color: #fff;
 }
 .btn-primary.btn-solid:hover, .btn-primary.btn-solid:active, .btn-primary.btn-solid:focus {
   border-color: #4dae67;
@@ -8037,8 +8023,7 @@ button.mfp-arrow {
 .btn-primary.btn-link 
 {
     background-color: transparent;
-    /*color: var(--base-color);*/
-    color: var(--white);
+    color: var(--base-color);
     font-family: circularstd-medium !important;
     text-transform: capitalize;
     font-weight: 100 !important;
@@ -9033,17 +9018,13 @@ ul.blog-filters .nav-filter {
   margin-bottom: 2rem;
 }
 
-.product 
-{
+.product {
   position: relative;
   overflow: hidden;
   font-family: circularstd-medium;
   font-size: 1.4rem;
   color: #999;
   transition: 0.3s;
-  border: 1px solid var(--base-color);
-  border-radius: 20px;
-  padding: 20px;
 }
 .product:hover .product-action,
 .product:hover .product-action-vertical {
@@ -9264,7 +9245,7 @@ ul.blog-filters .nav-filter {
   font-family: inherit;
   font-size: 20px;
   line-height: 30px;
-  text-align: center;
+  text-align: left;
   font-weight: 100;
   letter-spacing: -0.01em;
   color: var(--color-text);
@@ -9315,10 +9296,9 @@ ul.blog-filters .nav-filter {
 .ratings-container {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-left: 1px;
   line-height: 1.1;
-  /*margin-bottom: 1.2rem;*/
+  margin-bottom: 1.2rem;
   font-size: 11px;
   letter-spacing: 0.2em;
 }
@@ -9414,9 +9394,6 @@ ul.blog-filters .nav-filter {
 .product-hide-details .product-action {
   position: relative;
   opacity: 1;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 .product-details .product-action .btn-wishlist,
 .product-hide-details .product-action .btn-wishlist {
@@ -9768,7 +9745,7 @@ ul.blog-filters .nav-filter {
     border-color: var(--base-color);
     font-family: circularstd-medium;
     color: var(--base-color);
-    border-radius: 5px;
+    border-radius: 100px;
     line-height: 38px;
     font-weight: 100 !important;
     text-transform: capitalize;
@@ -10739,6 +10716,7 @@ ul.blog-filters .nav-filter {
 .icon-box-side {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .icon-box-side .icon-box-content {
   text-align: left;
@@ -12577,9 +12555,9 @@ figure.instagram img:hover
   margin-right: 2rem;
 }
 
-/*.header-left {
+.header-left {
   flex: 1;
-}*/
+}
 
 .header-left,
 .header-right,
@@ -12735,11 +12713,10 @@ figure.instagram img:hover
   display: block;
 }
 
-.header-bottom 
-{
-  padding: 5px 0px;
+.header-bottom {
+  padding-bottom: 1.5rem;
   color: #222;
-  background: #dfdfdf54;
+  background: #fff;
   font-size: 1.4rem;
   font-weight: 700;
 }
@@ -13996,7 +13973,6 @@ figure.instagram img:hover
   letter-spacing: inherit;
   line-height: 1;
   text-transform: capitalize;
-  font-size: 16px;
 }
 .menu > li > a::after {
   margin-left: 0.8rem;
@@ -14658,12 +14634,8 @@ figure.instagram img:hover
   font-size: 1.3rem;
   background: #222;
 }
-.footer p 
-{
-    font-family: circularstd-medium;
-    font-size: 16px;
-    line-height: 30px;
-    color: var(--white);
+.footer p {
+  font-size: inherit;
 }
 .footer a:not(.social-link):hover {
   color: #fff;
@@ -14672,13 +14644,13 @@ figure.instagram img:hover
 {
   letter-spacing: 0.005em;
   color: var(--white);
-  border: 1px solid;
+  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3rem;
-  height: 3rem;
-  font-size: 1.5rem;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2.5rem;
   border-color: var(--white);
   margin-right: 10px;
 }
@@ -14701,17 +14673,16 @@ figure.instagram img:hover
   color: #fff;
 }
 
-/*.logo-footer, .logo-footer img {
+.logo-footer, .logo-footer img {
   display: block;
-}*/
+}
 
 .footer-top {
   padding: 3.5rem 0 3.1rem;
 }
 
-.footer-middle 
-{
-  padding: 80px 0px;
+.footer-middle {
+  padding: 67px 0 17px;
 }
 .footer-middle .widget {
   margin-bottom: 3rem;
@@ -14853,7 +14824,7 @@ figure.instagram img:hover
   padding: 1rem 1.5rem;
   min-height: 100%;
   border: 0;
-  border-radius: 5px;
+  border-radius: 50px;
   color: #999;
   background: var(--white);
   font-family: circularstd-medium;
@@ -14864,20 +14835,20 @@ figure.instagram img:hover
     padding: 1.2em 1.38em 1.07em;
     font-family: circularstd-medium;
     font-size: 14px;
-    position: relative;
-    right: 0px;
+    position: absolute;
+    right: 5px;
     background: var(--black);
     border: none;
-    /*width: 45px;
-    height: 45px;*/
-    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
     top: 2px;
 }
 .widget-newsletter .btn i 
 {
   font-size: 2.5rem;
   margin: -4px;
-  margin-left: 2px;
+  margin-left: -8px;
 }
 .widget-newsletter .widget-title 
 {
@@ -14888,7 +14859,6 @@ figure.instagram img:hover
   font-family: circularstd-medium;
   font-weight: 600;
   letter-spacing: 0;
-  line-height: 30px;
   text-transform: inherit;
   color: #fff;
 }
@@ -16748,10 +16718,8 @@ h2 {
   font-size: 2.3rem;
 }
 
-.btn-md-ellipse 
-{
-  /*padding: 1.216em 2.646em;*/
-  padding: 10px;
+.btn-md-ellipse {
+  padding: 1.216em 2.646em;
 }
 
 .submenu > a::after {
@@ -16873,14 +16841,14 @@ h2 {
 
 .ratings-container {
   letter-spacing: 0.22em;
-  /*margin-bottom: 1.8rem;*/
+  margin-bottom: 1.8rem;
 }
 
 .banner-section h2 {
   font-size: 2.5rem;
 }
 .banner-section span {
-  font-size: 3.8rem;
+  font-size: 4.8rem;
 }
 .banner-section img {
   min-height: 45rem;
@@ -16893,7 +16861,7 @@ h2 {
   border-radius: 0;
 }
 .banner-section .category h4 {
-  font-size: 2rem;
+  font-size: 5rem;
 }
 .banner-section .banner-subtitle {
   margin-bottom: 8px;
