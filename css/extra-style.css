@@ -1,29 +1,23 @@
-:root
-{
-    --base-color:#7ea4b1;
+:root {
+    --base-color: #7ea4b1;
     --white: #fff;
     --black: #000;
 }
 
-.header_top_center
-{
+.header_top_center {
     justify-content: center;
 }
-.welcome-msg a
-{
+.welcome-msg a {
     color: var(--white);
 }
-.hs-simple
-{
+.hs-simple {
     width: 200px;
     max-width: 200px !important;
 }
-.categories_title_name
-{
+.categories_title_name {
     text-align: center;
 }
-.element
-{
+.element {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -35,32 +29,28 @@
     transition: transform 0.3s;
     text-align: center;
 }
-.element p
-{
+.element p {
     color: #333333;
     margin-bottom: 0px;
     font-size: 16px;
     font-family: circularstd-medium;
     line-height: 1.5;
     margin-top: 1em;
-    letter-spacing: .02em;
+    letter-spacing: 0.02em;
     font-weight: 100 !important;
 }
 
-h2.title.title-center.ls-s.mb-8 
-{
+h2.title.title-center.ls-s.mb-8 {
     font-size: 32px;
     line-height: 1.09375;
     color: var(--color-text);
     font-weight: 100 !important;
 }
-.font_italic
-{
+.font_italic {
     font-style: italic;
     font-family: domainedispnar;
 }
-.dis_block
-{
+.dis_block {
     display: block;
 }
 /*.offer_price_details
@@ -68,108 +58,90 @@ h2.title.title-center.ls-s.mb-8
     justify-content: left;
     text-align: left;
 }*/
-.offer_price_details span
-{
+.offer_price_details span {
     padding: 5px 5px !important;
-    margin: 5px !important;
+    margin: 5px !important;                                                        
 }
-.product-price.ls-md.offer_price_details span
-{
+.product-price.ls-md.offer_price_details span {                                                           
     color: var(--color-text);
     font-family: circularstd-medium;
     font-size: 18px;
     font-weight: 100;
 }
-.line-through
-{
+.line-through {
     text-decoration: line-through;
     color: var(--base-color);
     opacity: 0.5;
 }
-.base-color
-{
+.base-color {
     color: var(--base-color) !important;
     font-size: 16px !important;
     font-weight: 100 !important;
     font-family: circularstd-medium;
 }
-.base-color-bg
-{
-    background: linear-gradient(to bottom right,rgb(151 237 171 / 16%) 0%,rgb(160 196 243 / 28%) 100%);
+.base-color-bg {
+    background: linear-gradient(to bottom right, rgb(151 237 171 / 16%) 0%, rgb(160 196 243 / 28%) 100%);
 }
-.product_banner .abt_banner_section
-{
+.product_banner .abt_banner_section {
     background: url("../images/demos/demo-food2/products/pro_banner.png") no-repeat !important;
     padding: 80px;
-    background-attachment: fixed;
+    backgrou             nd-attachment: fixed;
     background-size: 100% 100%;
 }
-.abt_content_section
-{
+.abt_content_section {
     padding: 50px;
 }
-.product_banner h1
-{
+.product_banner h1 {
     color: var(--color-text);
     font-family: circularstd-medium;
     font-size: 40px;
 }
-.product_banner_2 h1
-{
-    color: var(--color-text);
+.product_banner_2 h1 {
+    color: var(--color-text);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
     font-family: circularstd-medium;
     font-size: 40px;
 }
-.product_banner p
-{
+.product_banner p {
     font-family: circularstd-medium;
     font-size: 20px;
     line-height: 30px;
     color: #7f848b;
 }
-.product_banner_2 p
-{
+.product_banner_2 p {   
     font-family: circularstd-medium;
     font-size: 20px;
     line-height: 30px;
-    color: #7f848b;  
+    color: #7f848b;
 }
-.product_banner a
-{
+.product_banner a {
     font-size: 20px;
     color: var(--color-text);
     line-height: 50px;
     text-decoration: underline;
     font-family: circularstd-medium;
 }
-.product_banner_2 a
-{
+.product_banner_2 a {
     font-size: 20px;
     color: var(--color-text);
     line-height: 50px;
     text-decoration: underline;
     font-family: circularstd-medium;
 }
-.product_banner_2 
-{
+.product_banner_2 {
     box-shadow: 0px 3px 15px #1018200d;
     padding: 20px;
 }
-.text-black
-{
+.text-black {
     color: var(--black);
 }
-.megamenu 
-{
+.megamenu {
     min-width: 600px;
     max-width: 600px;
 }
-.pad_lft_rgt_55
-{
+.pad_lft_rgt_55 {
     padding: 0px 55px;
 }
-.nav-tabs .nav-item .nav-link.active:before
-{
+.nav-tabs .nav-item .nav-link.active:before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -182,16 +154,13 @@ h2.title.title-center.ls-s.mb-8
     margin-left: -0.5em;
     margin-bottom: -0.5em;
 }
-.category-section
-{
+.category-section {
     padding-top: 30px;
 }
-.team_italic
-{
+.team_italic {
     font-style: italic;
 }
-.cli_logo p 
-{
+.cli_logo p {
     font-family: circularstd-medium;
     font-size: 20px;
     line-height: 1.86;
@@ -200,59 +169,46 @@ h2.title.title-center.ls-s.mb-8
     margin: 0px;
     padding-top: 10px;
 }
-.slider_team_slider
-{
+.slider_team_slider {
     padding: 50px 0px;
 }
 
-@media (min-width: 320px) and (max-width: 767px)
-{
-    .intro-section .banner-title 
-    {
+@media (min-width: 320px) and (max-width: 767px) {
+    .intro-section .banner-title {
         font-size: 4rem;
         line-height: 75px;
     }
-    .title-echo span 
-    {
+    .title-echo span {
         font-size: 25px;
         line-height: 30px;
     }
-    h1 
-    {
+    h1 {
         font-size: 3rem;
         text-align: center;
         line-height: 50px;
     }
 }
 
-
-
-
-.d-flex-footer 
-{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    text-align: center;
-}
-.foot_mail
-{
+.d-flex-footer {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.foot_mail p
-{
+.foot_mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.foot_mail p {
     margin: 0px;
 }
-.d-flex-footer p
-{
+.d-flex-footer p {
     margin: 0px;
     padding: 0px;
 }
-span.mail_footer a 
-{
+span.mail_footer a {
     font-size: 16px;
     color: var(--white);
     padding-left: 10px;
@@ -264,8 +220,7 @@ span.mail_footer a
     background-size: cover;
 }*/
 
-.icon-box-icon 
-{
+.icon-box-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -275,30 +230,66 @@ span.mail_footer a
     border-radius: 50%;
     box-shadow: 0 3px 20px rgb(0 0 0 / 7%);
 }
-.icon-box-content.text-lg-start h3
-{
+.icon-box-content.text-lg-start h3 {
     font-size: 22px;
 }
 
-.border-top
-{
+.border-top {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    padding: 10px 0px;
-}   
-.margin_left_16
-{
+    padding: 10px 0px 0px 0px;
+}
+.margin_left_16 {
     margin-left: 16%;
 }
-.foot_white_logo
-{
+.foot_white_logo {
     padding: 20px 0px 50px 0px;
 }
-a.nav-link.nav-link-with-img.border-rounded 
-{
+a.nav-link.nav-link-with-img.border-rounded {
     background: #000;
 }
-.nav-link-with-img .img-cat-title
-{
+.nav-link-with-img .img-cat-title {
     color: #fff;
+}
+.banner-content.text-center.appear-animate.blurIn.appear-animation-visible 
+{
+    padding: 80px 0;
+}
+.popup-video .btn-play
+{
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+.overlay-zoom h4
+{
+    background: #0000009e;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px !important;
+}
+.category-section p
+{
+    font-family: circularstd-medium;
+    font-size: 20px;
+    line-height: 1.86;
+    color: var(--color-text);
+    text-align: center;
+}
+.new_bottom_footer_link
+{
+    text-align: center;
+    justify-content: center;
+}
+.new_bottom_footer_link h4.widget-title
+{
+    text-align: left;
+}
+.new_bottom_footer_link .flex-center
+{
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    text-align: center;
 }
