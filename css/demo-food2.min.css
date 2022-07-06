@@ -2968,7 +2968,12 @@ blockquote {
 .p-0 {
     padding: 0 !important;
 }
-
+.p-10 {
+    padding: 10px !important;
+}
+.p-20 {
+    padding: 20px !important;
+}
 .m-0 {
     margin: 0 !important;
 }
@@ -10382,15 +10387,15 @@ ul.blog-filters .nav-filter {
 }
 .category img {
     display: block;
-    width: 100%;
+    /*width: 100%;*/
     height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 .category .category-name {
     margin-bottom: 0.3rem;
-    font-size: 1.4rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 400;
     line-height: 1.2;
     color: inherit;
     text-transform: capitalize;
