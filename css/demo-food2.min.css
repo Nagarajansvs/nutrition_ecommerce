@@ -9219,7 +9219,7 @@ ul.blog-filters .nav-filter {
     font-size: 1.4rem;
 }
 .breadcrumb a {
-    color: inherit;
+    color: #999;
 }
 .breadcrumb a:hover {
     color: #222;
