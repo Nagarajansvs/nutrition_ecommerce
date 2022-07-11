@@ -4343,7 +4343,7 @@ blockquote {
 
 .card-header {
     text-transform: capitalize;
-    font-size: 1.8rem;
+    font-size: 14px;
     font-weight: 600;
     line-height: 1;
     color: #222;
@@ -6153,7 +6153,7 @@ textarea {
     width: 18px;
     height: 18px;
     line-height: 17px;
-    border: 1px solid #ebebeb;
+    border: 1px solid #ccc;
     border-radius: 2px;
 }
 @media (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -9486,7 +9486,10 @@ ul.blog-filters .nav-filter {
 .btn-wishlist.loading::after {
     z-index: 1;
 }
-
+#ingredients_section .product-action-vertical
+{
+    display: block;
+}
 .product-action-vertical {
     position: absolute;
     top: 15px;
@@ -11089,7 +11092,7 @@ ul.blog-filters .nav-filter {
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    background-color: #4dae67;
+    background-color: #ccc;
     color: #fff;
     font-size: 2.5rem;
 }
