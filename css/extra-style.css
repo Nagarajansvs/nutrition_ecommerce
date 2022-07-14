@@ -343,7 +343,7 @@ span.mail_footer a {
     justify-content: center;
     width: 3rem;
     height: 3rem;
-    margin-bottom: 1.4rem;
+    /*margin-bottom: 1.4rem;*/
     border-radius: 50%;
     box-shadow: 0 3px 20px rgb(0 0 0 / 7%);
 }
@@ -351,8 +351,16 @@ span.mail_footer a {
 {
     font-size: 22px;
 }
-
-
+.product_list_icon ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.product_list_icon ul li
+{
+    padding: 5px 0px;
+}
 .border-top {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
@@ -473,7 +481,7 @@ a.nav-link.nav-link-with-img.border-rounded {
 {
   display: block;
   background: #fff;
-  border-radius: 20px;
+  border-radius: 10px;
   -webkit-box-shadow: 0px 8px 10px 0px #d8dfeb;
   box-shadow: 0px 8px 10px 0px #d8dfeb;
   flex-wrap: wrap;
@@ -494,7 +502,7 @@ a.nav-link.nav-link-with-img.border-rounded {
 {
   display: block;
   box-sizing: border-box;
-  border: 2px solid #e1e2e7;
+  /*border: 2px solid #e1e2e7;*/
   border-radius: 5px;
   transition: box-shadow 0.4s;
   transition: box-shadow 0.4s, 
