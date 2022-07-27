@@ -8270,8 +8270,8 @@ button.mfp-arrow {
 }
 .btn-primary.btn-link {
     background-color: transparent;
-    /*color: var(--base-color);*/
-    color: var(--white);
+    color: var(--base-color);
+    /*color: var(--white);*/
     font-family: circularstd-medium !important;
     text-transform: capitalize;
     font-weight: 100 !important;
@@ -8599,8 +8599,10 @@ button.mfp-arrow {
 .post .btn i::before {
     margin: 0;
 }
-.post .post-details > *:last-child {
+.post .post-details > *:last-child 
+{
     margin-bottom: 0;
+    margin-top: 10px;
 }
 
 .post-calendar {
@@ -11034,7 +11036,7 @@ ul.blog-filters .nav-filter {
     font-size: 1.4rem;
     line-height: 1.72;
     letter-spacing: 0;
-    color: #666;
+    color: #000;
 }
 .icon-box i::before {
     margin: 0;

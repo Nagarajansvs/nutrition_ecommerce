@@ -875,4 +875,59 @@ i.d-icon-heart
     font-size: 30px;
     color: #fff;
 }
+#ingredients_section .instagram a:after
+{
+    content: "+";
+}
+#ingredients_section figure.instagram img:hover
+{
+    transform: none;
+    transition: none;
+}
+.product-thumbs-wrap .product-thumbs .product-thumb_img
+{
+    border-radius: 100px;
+}
+.product-thumb.active::before 
+{
+    border-radius: 100px;
+}
+.product-thumbs-wrap .product-thumbs .owl-next 
+{
+    left: auto;
+    right: -10rem;
+    transform: none;
+}
+.product-thumbs-wrap .product-thumbs button
+{
+    opacity: 1;
+}
+.product-thumbs-wrap .product-thumbs .owl-prev 
+{
+    transform: none;
+    right: -7rem !important;
+    opacity: 1 !important;
+    left: auto;
+}
+.product-thumbs-wrap button, .product-thumbs .owl-nav .owl-prev, .product-thumbs .owl-nav .owl-next
+{
+    background: transparent !important;
+    box-shadow: none;
+}
+#cart_product_page .product-thumbs-wrap .fa-chevron-left:before 
+{
+    content: "\f060" !important;
+}
+#cart_product_page .product-thumbs-wrap .fa-chevron-right:before 
+{
+    content: "\f061" !important;
+}
 /*Product page ingredients_section End */
+
+
+/*Contact Us Start*/
+.grey-section 
+{
+    padding: 2.5rem 3.2rem 1.4rem;
+}
+/*Contact Us End*/
