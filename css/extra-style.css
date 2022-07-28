@@ -931,3 +931,14 @@ i.d-icon-heart
     padding: 2.5rem 3.2rem 1.4rem;
 }
 /*Contact Us End*/
+
+.image-overlay{font-size:1.3rem;line-height:1.85;text-align:center;margin-bottom:2rem}
+.image-overlay a.social-link{border-color:transparent}
+.image-overlay h4{margin-bottom:0;font-size:1.8rem;font-weight:700;letter-spacing:-0.025em;text-transform:uppercase}
+.image-overlay figure{position:relative}
+.image-overlay img{width:100%;display:block}
+
+.overlay-zoom{overflow:hidden}
+.overlay-zoom figure{overflow:hidden}
+.overlay-zoom img{transition:transform 0.3s}
+.overlay-zoom:hover img{transform:scale(1.08)}

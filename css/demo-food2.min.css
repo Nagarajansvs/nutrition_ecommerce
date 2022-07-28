@@ -12058,8 +12058,8 @@ figure:hover .overlay {
 }
 
 figure:hover .overlay-visible {
-    background: rgba(77, 174, 103, 0.9);
-    padding-bottom: 9rem;
+    background: rgba(126, 164, 177, 0.9);
+    padding-bottom: 15rem;
 }
 
 .overlay-transparent {
