@@ -11461,12 +11461,49 @@ aside + div .product-single .product-details {
 .product-single .product-countdown-container .product-sale-info + label {
     margin-left: 1.5rem;
 }
-.product-single .product-label-group {
+.product-single .product-label-group 
+{
     top: 2rem;
     left: 2.5rem;
     z-index: 2;
     align-items: flex-start;
 }
+
+.inner-product-label-group
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 1rem;
+    top: 0rem;
+    max-width: 5rem;
+}
+.inner-product-label-group
+{
+    top: 0rem;
+    left: 0rem;
+    z-index: 2;
+    align-items: flex-start;
+}
+.inner-product-label.label-sale 
+{
+    background: #000;
+    color: #fff !important;
+}
+.inner-product-label 
+{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1.1rem;
+    font-size: 12px;
+    border-radius: 0px 0px 10px 10px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 .product-single .product-label {
     color: #fff;
 }
