@@ -23,7 +23,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3.4rem 0 2.6rem;
+    padding: 2rem 0 2.6rem;
     background-color: #fff;
     border-radius: 1rem;
     transition: transform 0.3s;
@@ -420,11 +420,11 @@ a.nav-link.nav-link-with-img.border-rounded {
     /*align-items: center;*/
     text-align: center;
 }
-.new_our_idea .category
+/*.new_our_idea .category
 {
     width: 20%;
     max-width: 20%;
-}
+}*/
 .new_our_idea_des
 {
     font-family: circularstd-medium;
@@ -438,9 +438,9 @@ a.nav-link.nav-link-with-img.border-rounded {
     position: absolute;
     left: 0;
     background: var(--base-color);
-    top: 6rem;
-    width: 150px;
-    height: 150px;
+    top: 1rem;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     z-index: -1;
 }
@@ -450,8 +450,8 @@ a.nav-link.nav-link-with-img.border-rounded {
     right: 1rem;
     background: var(--base-color);
     top: -2rem;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     z-index: -1;   
 }
@@ -785,14 +785,14 @@ button.btn-product.btn-cart
 }
 #absolute_cart .icon-inversed .icon-box-icon
 {
-    width: 8rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
 }
 #absolute_cart span.icon-box-icon 
 {
     position: absolute;
-    left: 40%;
-    top: -20px;
+    left: 32%;
+    top: -50px;
 }
 #why_choose_image p
 {
@@ -942,3 +942,23 @@ i.d-icon-heart
 .overlay-zoom figure{overflow:hidden}
 .overlay-zoom img{transition:transform 0.3s}
 .overlay-zoom:hover img{transform:scale(1.08)}
+
+.whole_food_img
+{
+    width: 100px;
+}
+.no_border
+{
+    border: none;
+}
+.pro_feature
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pro_feature img
+{
+    width: 80%;
+}
