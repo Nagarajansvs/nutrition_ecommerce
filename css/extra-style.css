@@ -1,5 +1,5 @@
 :root {
-    --base-color: #7ea4b1;
+    --base-color: #93E9BE;
     --white: #fff;
     --black: #000;
 }
@@ -359,7 +359,7 @@ span.mail_footer a {
 }
 .product_list_icon ul li
 {
-    padding: 5px 0px;
+    padding: 10px 0px;
 }
 .border-top {
     border-top: 1px solid #ddd;
@@ -372,11 +372,13 @@ span.mail_footer a {
 .foot_white_logo {
     padding: 20px 0px 50px 0px;
 }
-a.nav-link.nav-link-with-img.border-rounded {
-    background: #000;
+a.nav-link.nav-link-with-img.border-rounded 
+{
+    background: var(--base-color);
 }
-.nav-link-with-img .img-cat-title {
-    color: #fff;
+.nav-link-with-img .img-cat-title 
+{
+    color: var(--black);
 }
 .banner-content.text-center.appear-animate.blurIn.appear-animation-visible 
 {
@@ -751,6 +753,11 @@ button.btn-product.btn-cart
     width: 200px;
     max-width: 200px;
 }
+.wid_250
+{
+    width: 250px;
+    max-width: 250px;
+}
 .cart_packlist
 {
     padding: 20px;
@@ -961,4 +968,27 @@ i.d-icon-heart
 .pro_feature img
 {
     width: 80%;
+}
+img.pro_des_icon 
+{
+    width: 35px;
+    padding-right: 5px;
+}
+.icon-box icon-box-side
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+p.product-short-desc
+{
+    color: #000;
+}
+h4.icon-box-title.text-capitalize.ls-normal 
+{
+    font-weight: 100;
+}
+.need_sec .product-details .product-name 
+{
+    text-align: center;
 }

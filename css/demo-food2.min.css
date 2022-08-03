@@ -7758,6 +7758,7 @@ button.mfp-arrow {
     color: var(--color-text);
     font-size: 40px;
     font-family: circularstd-medium;
+    font-weight: 100;
 }
 
 @media (max-width: 767px) {
@@ -7872,14 +7873,15 @@ button.mfp-arrow {
         - With Icon & Animation
         - On Background
 ---------------------------------------------- */
-.btn {
+.btn 
+{
     display: inline-block;
     border: 2px solid #e4eaec;
-    background-color: #e4eaec;
-    color: #222;
+    background-color: var(--base-color);
+    color: #000;
     outline: 0;
     padding: 1.22em 2.78em;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 1.4rem;
     font-family: circularstd-medium;
     letter-spacing: 0;
@@ -8233,10 +8235,12 @@ button.mfp-arrow {
     }
 }
 
-.btn-primary {
-    color: #fff;
+.btn-primary 
+{
+    color: var(--black);
     border-color: var(--base-color);
     background-color: var(--base-color);
+    font-weight: 100;
 }
 .btn-primary:hover,
 .btn-primary:active,
@@ -9391,8 +9395,8 @@ ul.blog-filters .nav-filter {
     flex-direction: column;
     position: absolute;
     right: 1rem;
-    top: 0rem;
-    max-width: 5rem;
+    top: 1rem;
+    max-width: 6rem;
 }
 
 .product-label {
@@ -9435,10 +9439,11 @@ ul.blog-filters .nav-filter {
     font-weight: 700;
     transition: border-color 0.3s, color 0.3s, background-color 0.3s;
 }
-.btn-product-icon:hover {
-    border-color: #4dae67;
+.btn-product-icon:hover 
+{
+    border-color: var(--base-color);
     color: #fff;
-    background-color: #4dae67;
+    background-color: var(--base-color);
 }
 .btn-product-icon:not(.btn-wishlist) i {
     margin-bottom: 2px;
@@ -9457,10 +9462,10 @@ ul.blog-filters .nav-filter {
     flex: 1;
     padding: 1.14em 0;
     background-color: #4dae67;
-    color: #fff;
+    color: var(--black);
     font-family: circularstd-medium;
     font-size: 1.4rem;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 1.2;
     letter-spacing: -0.025em;
     text-transform: uppercase;
@@ -9490,16 +9495,16 @@ ul.blog-filters .nav-filter {
 }
 #ingredients_section .product-action-vertical
 {
-    display: block;
+9455    display: block;
 }
 .product-action-vertical {
     position: absolute;
-    top: 15px;
+    bottom: 15px;
     right: 15px;
     transition: opacity 0.3s, visibility 0.3s;
     opacity: 0;
     visibility: hidden;
-    display: none;
+    /*display: none;*/
 }
 .product-action-vertical .btn-wishlist.loading {
     overflow: hidden;
@@ -10078,7 +10083,7 @@ ul.blog-filters .nav-filter {
     padding: 0;
     border-color: var(--base-color);
     font-family: circularstd-medium;
-    color: var(--base-color);
+    color: var(--black);
     border-radius: 5px;
     line-height: 38px;
     font-weight: 100 !important;
@@ -10092,10 +10097,12 @@ ul.blog-filters .nav-filter {
 .product.cart-full .btn-cart:active,
 .product.product-with-qty .product-details .btn-cart:hover,
 .product.product-with-qty .product-details .btn-cart:focus,
-.product.product-with-qty .product-details .btn-cart:active {
+.product.product-with-qty .product-details .btn-cart:active 
+{
     background-color: var(--base-color);
     border-color: var(--base-color);
-    color: #fff;
+    color: var(--black);
+    font-weight: 100 !important;
 }
 .product.cart-full .btn-cart {
     max-width: none;
@@ -11476,12 +11483,12 @@ aside + div .product-single .product-details {
     position: absolute;
     right: 1rem;
     top: 0rem;
-    max-width: 5rem;
+    max-width: 8rem;
 }
 .inner-product-label-group
 {
-    top: 0rem;
-    left: 0rem;
+    top: 1rem;
+    /*left: 0rem;*/
     z-index: 2;
     align-items: flex-start;
 }
@@ -11617,7 +11624,8 @@ aside + div .product-single .product-details {
     border-radius: 0.3rem;
     background: var(--base-color);
     transition: background-color 0.3s;
-    color: #fff;
+    color: var(--black);
+    font-weight: 100;
     cursor: pointer;
     max-width: 20.7rem;
     height: 4.5rem;
@@ -15275,7 +15283,7 @@ figure.instagram img:hover {
     font-size: 14px;
     position: relative;
     right: 0px;
-    background: var(--black);
+    background: var(--base-color);
     border: none;
     /*width: 45px;
     height: 45px;*/
