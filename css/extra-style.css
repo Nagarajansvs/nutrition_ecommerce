@@ -974,6 +974,7 @@ img.pro_des_icon
     width: 35px;
     padding-right: 5px;
 }
+
 .icon-box icon-box-side
 {
     display: flex;
@@ -991,4 +992,8 @@ h4.icon-box-title.text-capitalize.ls-normal
 .need_sec .product-details .product-name 
 {
     text-align: center;
+}
+.product_banner_section_3
+{
+    padding: 50px 0px;
 }
