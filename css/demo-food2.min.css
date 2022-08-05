@@ -958,6 +958,7 @@ button:focus {
 .riode-rounded-skin .vendor-widget .vendor-banner {
     border-radius: 3px;
     overflow: hidden;
+    display:none;
 }
 .riode-rounded-skin .login-popup {
     border-radius: 3px;
@@ -6395,7 +6396,7 @@ input[type="radio"]:checked ~ label::after {
 .nav-tabs .nav-item .nav-link.active,
 .nav-tabs .nav-item:hover .nav-link {
     color: #222;
-    background: var(--base-color);
+    /* background: var(--base-color); */
 }
 .nav-tabs .nav-item .nav-link.active h3 {
     color: var(--white);
@@ -13053,7 +13054,6 @@ figure.instagram img:hover {
     display: flex;
     align-items: center;
     margin-right: 2rem;
-    padding-bottom: 0.2rem;
 }
 .header-middle .login-link span {
     cursor: pointer;
