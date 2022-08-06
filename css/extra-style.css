@@ -511,9 +511,11 @@ a.nav-link.nav-link-with-img.border-rounded
   position: relative;
 }
 
-.plans .plan .plan-content img {
-  margin-right: 30px;
+.plans .plan .plan-content img 
+{
+  /*margin-right: 30px;*/
   height: 72px;
+  margin: 10px;
 }
 
 .plans .plan .plan-details span 
@@ -521,16 +523,20 @@ a.nav-link.nav-link-with-img.border-rounded
   display: block;
   font-size: 12px;
   line-height: 30px;
-  color: #fff;
-  background: #222;
+  color: #000;
+  /*background: url("../images/demos/demo-food2/products/nav-button.png");*/
+  background: var(--base-color);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
   border-radius: 5px;
+  border-radius: 5px 5px 20px 20px;
 }
 .pack_add_cart
 {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 30px;
-  color: #fff;
-  background: #222;
+  color: #222;
   border-radius: 5px;   
 }
 h1.pack_tittle 
@@ -760,7 +766,7 @@ button.btn-product.btn-cart
 }
 .cart_packlist
 {
-    padding: 20px;
+    padding: 5px;
     background: #f1f3f3;
     border-radius: 20px;
     box-shadow: 0 2rem 3rem rgb(0 0 0 / 5%), 0 0 5px rgb(0 0 0 / 5%);
@@ -996,4 +1002,13 @@ h4.icon-box-title.text-capitalize.ls-normal
 .product_banner_section_3
 {
     padding: 50px 0px;
+}
+.burn_works
+{
+    line-height: 75px;
+}
+.pro_des_icon2
+{
+    width: 50px;
+    padding-right: 5px;
 }

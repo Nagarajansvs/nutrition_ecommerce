@@ -940,6 +940,11 @@ button:focus {
         transform: rotate(359deg);
     }
 }
+
+
+
+
+
 .riode-rounded-skin .btn,
 .riode-rounded-skin .post-calendar,
 .riode-rounded-skin .product-hide-details .btn-product,
@@ -958,8 +963,11 @@ button:focus {
 .riode-rounded-skin .vendor-widget .vendor-banner {
     border-radius: 3px;
     overflow: hidden;
-    display:none;
 }
+
+
+
+
 .riode-rounded-skin .login-popup {
     border-radius: 3px;
 }
@@ -5422,7 +5430,10 @@ blockquote {
 .d-icon-bag:before {
     content: "";
 }
-
+i.fa.fa-inr::before 
+{
+    content: "\f156";
+}
 .d-icon-map:before {
     content: "";
 }
@@ -11493,6 +11504,33 @@ aside + div .product-single .product-details {
     z-index: 2;
     align-items: flex-start;
 }
+
+.inner-product-label-group2
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 1rem;
+    top: 0rem;
+    max-width: 8rem;
+}
+.inner-product-label-group2 label
+{
+    color: #fff !important;
+    background: #de324a;
+    margin: 0px !important;
+    line-height: 15px !important;
+    padding: 6px !important;
+    font-size: 10px;
+}
+.inner-product-label-group2
+{
+    top: 5rem;
+    /*left: 0rem;*/
+    z-index: 2;
+    align-items: flex-start;
+}
+
 .inner-product-label.label-sale 
 {
     background: #000;
@@ -11505,7 +11543,7 @@ aside + div .product-single .product-details {
     margin-bottom: 0.5rem;
     padding: 0.5rem 1.1rem;
     font-size: 12px;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 20px 0px 20px;
     font-weight: 600;
     line-height: 20px;
     color: #fff;
@@ -11848,6 +11886,7 @@ aside + div .product-single .product-details {
     left: 30px;
     bottom: 30px;
     z-index: 9999;
+    display: none;
 }
 
 .dark-theme .minipopup-box {
