@@ -10424,8 +10424,10 @@ ul.blog-filters .nav-filter {
     color: inherit;
     text-transform: capitalize;
 }
-.category .category-name a {
+.category .category-name a 
+{
     color: inherit;
+    color: #000;
 }
 .category .category-count {
     font-size: 1.2rem;
