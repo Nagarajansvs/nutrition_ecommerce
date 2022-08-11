@@ -1019,10 +1019,10 @@ i.d-icon-heart
     align-items: center;
     text-align: center;
 }
-.pro_feature img
+/*.pro_feature img
 {
     width: 80%;
-}
+}*/
 img.pro_des_icon 
 {
     width: 35px;
@@ -1065,4 +1065,8 @@ h4.icon-box-title.text-capitalize.ls-normal
     color: #000;
     font-size: 16px;
     line-height: 30px;
+}
+#Potential_product .product
+{
+    padding: 0px;
 }
