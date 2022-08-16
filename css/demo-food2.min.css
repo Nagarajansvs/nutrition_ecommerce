@@ -7761,14 +7761,15 @@ button.mfp-arrow {
     padding: 25px 0px;
     flex-wrap: initial;
 }
-.title-echo span {
+.title-echo span 
+{
     position: absolute;
     font-size: 3.74rem;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     color: var(--color-text);
-    font-size: 40px;
+    font-size: 34px;
     font-family: circularstd-medium;
     font-weight: 100;
 }

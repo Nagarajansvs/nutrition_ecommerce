@@ -101,6 +101,7 @@ h2.title.title-center.ls-s.mb-8 {
     color: var(--color-text);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
     font-family: circularstd-medium;
     font-size: 40px;
+    font-weight: 400;
 }
 .product_banner p {
     font-family: circularstd-medium;
@@ -137,10 +138,10 @@ h2.title.title-center.ls-s.mb-8 {
 .product_banner_3
 {
     box-shadow: 0px 3px 15px #1018200d;
-    padding: 20px;
+    padding: 50px;
     /*background: #cfece76e; */
     border-radius: 10px;
-    background: url("../images/demos/demo-food2/products/pro_bg.png") no-repeat;
+    background: url("../images/demos/demo-food2/products/pro_bg3.png") no-repeat;
     border-radius: 10px;
     /*background-position: center;*/
     background-size: cover; 
@@ -172,8 +173,8 @@ img.weak_strongest_img_absolute
 }
 .weak_strongest_img
 {
-    position: absolute;
-    width: 100%;
+    /*position: absolute;*/
+    width: 80%;
     top: -5px;
     left: 55px;
     bottom: 0;
@@ -1069,4 +1070,12 @@ h4.icon-box-title.text-capitalize.ls-normal
 #Potential_product .product
 {
     padding: 0px;
+}
+section.instagram-section p 
+{
+    font-family: circularstd-medium;
+    font-size: 20px;
+    line-height: 1.86;
+    color: var(--color-text);
+    text-align: center;
 }
