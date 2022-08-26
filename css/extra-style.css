@@ -80,6 +80,12 @@ h2.title.title-center.ls-s.mb-8 {
     font-weight: 100 !important;
     font-family: circularstd-medium;
 }
+.black-color {
+    color: var(--black) !important;
+    font-size: 16px !important;
+    font-weight: 100 !important;
+    font-family: circularstd-medium;
+}
 .base-color-bg {
     background: linear-gradient(to bottom right, rgb(151 237 171 / 16%) 0%, rgb(160 196 243 / 28%) 100%);
 }
@@ -188,9 +194,11 @@ img.weak_strongest_img_absolute
     min-width: 600px;
     max-width: 600px;
 }
-.pad_lft_rgt_55 {
+.pad_lft_rgt_55 
+{
     padding: 0px 55px;
 }
+
 .nav-tabs .nav-item .nav-link.active:before {
     content: "";
     position: absolute;
@@ -204,13 +212,16 @@ img.weak_strongest_img_absolute
     margin-left: -0.5em;
     margin-bottom: -0.5em;
 }
-.category-section {
+.category-section 
+{
     padding-top: 30px;
 }
-.team_italic {
+.team_italic 
+{
     font-style: italic;
 }
-.cli_logo p {
+.cli_logo p 
+{
     font-family: circularstd-medium;
     font-size: 20px;
     line-height: 1.86;
@@ -219,7 +230,8 @@ img.weak_strongest_img_absolute
     margin: 0px;
     padding-top: 10px;
 }
-.slider_team_slider {
+.slider_team_slider 
+{
     padding: 50px 0px;
 }
 
@@ -430,7 +442,7 @@ a.nav-link.nav-link-with-img.border-rounded
     color: var(--black);
 }
 .banner-content.text-center.appear-animate.blurIn.appear-animation-visible 
-{
+{    
     padding: 80px 0;
 }
 .popup-video .btn-play
@@ -1079,3 +1091,43 @@ section.instagram-section p
     color: var(--color-text);
     text-align: center;
 }
+
+
+
+/* Free Trial Section Start */
+
+#free_trial_section
+{
+    padding: 50px 0px;
+}
+#free_trial_section p 
+{
+    font-family: circularstd-medium;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-text);
+}
+.trial_form 
+{
+    border: 6px solid #eee;
+    background: #064775de;
+    box-shadow: 0 2rem 3rem rgb(0 0 0 / 5%), 0 0 5px rgb(0 0 0 / 5%);
+    transition: transform 0.3s;
+    padding: 20px;
+    border-radius: 20px;
+}
+.trial_form h6, .trial_form p, .trial_form .form-control
+{
+    color: #fff;
+}
+#trial_free_section .banner-content
+{
+    display: flex;
+    justify-content: end;
+}
+img.trial_buy_now_btn 
+{
+    width: 60%;
+}
+/* Free Trial Section End */
+
