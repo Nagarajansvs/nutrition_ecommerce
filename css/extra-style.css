@@ -1110,15 +1110,31 @@ section.instagram-section p
 .trial_form 
 {
     border: 6px solid #eee;
-    background: #064775de;
+    background: #034778;
     box-shadow: 0 2rem 3rem rgb(0 0 0 / 5%), 0 0 5px rgb(0 0 0 / 5%);
     transition: transform 0.3s;
     padding: 20px;
     border-radius: 20px;
 }
-.trial_form h6, .trial_form p, .trial_form .form-control
+.trial_form h5
 {
-    color: #fff;
+    color: var(--white);
+    margin: 0px;
+}
+.trial_form option 
+{
+    color: #034778;
+}
+.trial_form p
+{
+    color: var(--white);
+    font-size: 30px;
+    margin: 0px;
+}
+.trial_form .form-control
+{
+    color: var(--white);
+    border: 1px solid var(--white);
 }
 #trial_free_section .banner-content
 {
@@ -1127,7 +1143,56 @@ section.instagram-section p
 }
 img.trial_buy_now_btn 
 {
+    width: 50%;
+}
+.trial_logo_btn
+{
     width: 60%;
+}
+.trial_claim_btn
+{
+    width: 50%;   
+}
+.trial_call_btn
+{
+    width: 40%;
+}
+.wid_15
+{
+    width: 15%;
+}
+.wid_30
+{
+    width: 30%;
+}
+.wid_20
+{
+    width: 20%;
+}
+.wid_60
+{
+    width: 60%;
+}
+.flex-gap
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.heart 
+{
+    color: #e00;
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+}
+@keyframes beat
+{
+    to 
+    {
+        transform: scale(1.1); 
+    }
 }
 /* Free Trial Section End */
 
