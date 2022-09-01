@@ -1196,3 +1196,135 @@ img.trial_buy_now_btn
 }
 /* Free Trial Section End */
 
+/* Category Page Section Start */
+#distinct_table .table-responsive td i
+{
+    color: var(--base-color);
+    padding-right: 10px;
+}
+#distinct_table .table-responsive td .fa-red
+{
+    color: red !important;
+}
+#distinct_table .table-bordered,
+#distinct_table .table-bordered thead tr th,
+#distinct_table .table-bordered td, 
+#distinct_table .table-bordered tr
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+    line-height: 20px;
+    vertical-align: top;
+    border-collapse: separate !important;
+    border-radius: 10px;
+}
+#distinct_table .table-bordered table 
+{
+    width: 100%;
+    border-collapse: initial;
+}
+.base-bg
+{
+    background: var(--base-color);
+    color: var(--white);
+}
+.red-bg
+{
+    background: red;
+    color: var(--white);
+}
+/* Category Page Section End */
+
+
+.shop-table tbody 
+{
+    border-bottom: 1px solid #e1e1e1;
+}
+.shop-table td
+
+{
+    border: 1px solid #e1e1e1;
+    font-size: 1.4rem;
+}
+.shop-table 
+{
+    text-align: center;
+}
+td.product-thumbnail 
+{
+    padding: 2rem 2rem 1.5rem 0;
+}
+.cart .shop-table th 
+{
+    padding: 0.2rem 0 1.8rem !important;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #999;
+    line-height: 1;
+    letter-spacing: -0.025em;
+}
+table.shop-table.cart-table .product-remove 
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #222;
+    padding: 5px;
+}
+.shop-table .product-price 
+{
+    display: table-cell;
+}
+.cart-actions 
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cart-actions-right
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+.apply_couple
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cart-coupon-box
+{
+    background: #e4eaec;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2rem 3rem rgb(0 0 0 / 5%), 0 0 5px rgb(0 0 0 / 5%);
+    transition: transform 0.3s;
+}
+.summary
+{
+    padding: 2.4rem 3rem 3rem;
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+}
+table 
+{
+    width: 100%;
+    border-collapse: initial;
+}
+table.shop-table.cart-table thead 
+{
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
