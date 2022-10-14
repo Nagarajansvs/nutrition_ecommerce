@@ -13219,7 +13219,7 @@ figure.instagram img:hover {
     font-size: 2rem;
 }
 .header-search .btn-search i {
-    margin: 0 0.1rem 0.6rem 0;
+    margin: 5px 0.1rem 0.6rem 0;
     vertical-align: middle;
     font-size: 2rem;
 }
@@ -13330,8 +13330,9 @@ figure.instagram img:hover {
     margin-right: 2rem;
     max-width: 52.2rem;
 }
-.header-search.hs-simple input.form-control {
-    padding: 0 5rem 0 1.55rem;
+.header-search.hs-simple input.form-control
+{
+    padding: 1rem 1rem;
     border-radius: 100px;
     border: none;
     border-color: none;
